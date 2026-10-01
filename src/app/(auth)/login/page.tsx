@@ -13,7 +13,7 @@ export default function LoginPage() {
             name="email"
             placeholder="Email"
             required
-            className="border-2 rounded-md p-2 m-2 border-black"
+            className="border-2 rounded-md text-sm p-2 m-2 border-black"
           />
           <input
             type="password"
@@ -21,13 +21,13 @@ export default function LoginPage() {
             name="password"
             placeholder="Password"
             required
-            className="border-2 w-xs rounded-md p-2 m-2 border-black"
+            className="border-2 w-xs rounded-md text-sm p-2 m-2 border-black"
           />
-          <button className="bg-blue-500 p-2 m-2 rounded-md">
-                Log in
-          </button>
+          <button className="bg-blue-500 p-2 m-2 rounded-md">Log in</button>
         </form>
-        <p className="flex justify-between font-bold">Forgot Password? <span>Create Account</span></p>
+        <p className="flex justify-between font-bold">
+          Forgot Password? <span>Create Account</span>
+        </p>
       </div>
     </div>
   );
